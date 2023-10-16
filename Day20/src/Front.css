@@ -1,0 +1,64 @@
+.frontContainer {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    min-height: 100vh;
+    overflow: hidden;
+   padding-left: 760px;
+  }
+  .frontimg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+  
+  }
+  .frontContent {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    font-weight: bolder;
+    /* padding-left: 1500px; */
+  }
+  
+  .frontContent h1 {
+    font-size: 2.2rem;
+    color: #000000;
+    font-weight: bolder;
+    text-shadow:2px 2px 5px #fff;
+    margin-bottom: 10px;
+  }
+  
+  .frontContent p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-shadow:2px 2px 5px #fff;
+  }
+  
+  .btnfront {
+    width: 150px;
+    background-color: #f7f9fd;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .btn:hover {
+    background-color: #4d84e2;
+  }
+  
+  /* Add more styling as needed */
+  
